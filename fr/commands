@@ -1,4 +1,4 @@
 *PHOTO*DISCRET*==jv_pg_ca_take_picture /tmp/photo_test.jpg True
-*PRENDRE*PHOTO*==jv_pg_ca_take_picture /tmp/photo_test.jpg
-*VIDEO*DISCRET*==jv_pg_ca_take_video /tmp/video_test.mp4 True
-*PRENDRE*VIDEO*==jv_pg_ca_take_video /tmp/video_test.mp4
+*PREND*PHOTO*==jv_pg_ca_take_picture /tmp/photo_test.jpg
+*VIDEO*DISCRET*==jv_pg_ca_take_video /tmp/video_test.mp4 10 True
+*PREND*VIDEO*==jv_pg_ca_take_video /tmp/video_test.mp4 10
