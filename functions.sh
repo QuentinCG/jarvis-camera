@@ -15,8 +15,8 @@ jv_pg_ca_take_picture()
 
   # Show the result to user
   if [[ $? -eq 0 ]]; then
-      say "$(jv_pg_gt_lang take_picture_success)"
+      say "$(jv_pg_ca_lang take_picture_success)"
     else
-      say "$(jv_pg_gt_lang take_picture_failed)"
+      say "$(jv_pg_ca_lang take_picture_failed)"
   fi
 }
