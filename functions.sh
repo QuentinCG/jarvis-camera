@@ -10,20 +10,20 @@ jv_pg_ca_take_picture()
 
   # Show the result to user (if requested)
   if [[ $? -eq 0 ]]; then
-      if [[ ! $2 =~ "True" ]]; then
-        say "$(jv_pg_ca_lang take_picture_success)"
-      fi
-    else
-      if [[ ! $2 =~ "True" ]]; then
-        say "$(jv_pg_ca_lang take_picture_failed)"
-      fi
+    if [[ ! $2 =~ "True" ]]; then
+      say "$(jv_pg_ca_lang take_picture_success)"
+    fi
+  else
+    if [[ ! $2 =~ "True" ]]; then
+      say "$(jv_pg_ca_lang take_picture_failed)"
+    fi
   fi
 }
 
 # Take a video
 # $1 (string): Storage path
 # $2 (int): Video time
-# $3 (bool): Silent ("True" for no Jarvis response, "False" or no value for Jarvis response)
+# $3 (bool, optional): Silent ("True" for no Jarvis response, "False" or no value for Jarvis response)
 jv_pg_ca_take_video()
 {
   # Send request to take a video
@@ -31,12 +31,12 @@ jv_pg_ca_take_video()
 
   # Show the result to user (if requested)
   if [[ $? -eq 0 ]]; then
-      if [[ ! $2 =~ "True" ]]; then
-        say "$(jv_pg_ca_lang take_video_success)"
-      fi
-    else
-      if [[ ! $2 =~ "True" ]]; then
-        say "$(jv_pg_ca_lang take_video_failed)"
-      fi
+    if [[ ! $3 =~ "True" ]]; then
+      say "$(jv_pg_ca_lang take_video_success)"
+    fi
+  else
+    if [[ ! $3 =~ "True" ]]; then
+      say "$(jv_pg_ca_lang take_video_failed)"
+    fi
   fi
 }
