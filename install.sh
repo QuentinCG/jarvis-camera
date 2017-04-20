@@ -1,2 +1,4 @@
-#!/bin/bash
-# Use only if you need to perform changes on the user system such as installing software
+#!/usr/bin/env bash
+
+# Install avconv
+[[ -z $(which libav-tools) ]] && sudo apt-get install libav-tools

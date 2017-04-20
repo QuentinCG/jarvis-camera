@@ -1,1 +1,2 @@
-*HELLO WORLD*==say "Hello World"
+*PRENDRE*PHOTO*DISCRETEMENT*==jv_pg_ca_take_picture /tmp/photo_test.jpg True
+*PRENDRE*PHOTO*AVEC*REPONSE*==jv_pg_ca_take_picture /tmp/photo_test.jpg False
