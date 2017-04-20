@@ -2,7 +2,7 @@
 Take a picture or a video with Jarvis (voice assistant) using any USB webcam compatible with Linux
 
 
-<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-camera/master/prensentation.png">
+<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-camera/master/presentation.png">
 
 
 ## Usage
