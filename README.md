@@ -20,6 +20,14 @@ Jarvis: Vidéo prise.
 
 You: Prends une vidéo de test discrètement
 [Vidéo sauvegardée dans /tmp/video_test.mp4 comme définit dans le fichier command]
+
+You: Prends une vidéo et envoie la par mail
+Jarvis: Mail envoyé.
+[Vidéo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]
+
+You: Prends une photo et envoie la par mail
+Jarvis: Mail envoyé.
+[Photo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]
 ```
 
 
@@ -31,9 +39,11 @@ You: Prends une vidéo de test discrètement
 
 3) Add this plugin in <a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">Jarvis project</a>
 
-4) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-camera/blob/master/config.sh">configuration file</a> to match your requirements.
+4) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-email-sender">Email Sender plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">Jarvis project</a> if you want to send your picture or video by email.
 
-5) Enjoy
+5) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-camera/blob/master/config.sh">configuration file</a> to match your requirements.
+
+6) Enjoy
 
 
 ## Author
