@@ -1,5 +1,5 @@
-*PHOTO*ENVOI*MAIL*==jv_pg_ca_take_picture /tmp/photo_test.jpg True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Photo prise depuis Jarvis" "Ceci est un mail contenant une photo prise par Jarvis" "[\"/tmp/photo_test.jpg\"]" # Requires https://github.com/QuentinCG/jarvis-email-sender plugin
-*VIDEO*ENVOI*MAIL*==jv_pg_ca_take_video /tmp/video_test.mp4 2 True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Vidéo prise depuis Jarvis" "Ceci est un mail contenant une vidéo prise par Jarvis" "[\"/tmp/video_test.mp4\"]" # Requires https://github.com/QuentinCG/jarvis-email-sender plugin
+*PHOTO*ENVOI*MAIL*==jv_pg_ca_take_picture /tmp/photo_test.jpg True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Photo prise depuis Jarvis" "Ceci est un mail contenant une photo prise par Jarvis" "[\"/tmp/photo_test.jpg\"]"
+*VIDEO*ENVOI*MAIL*==jv_pg_ca_take_video /tmp/video_test.mp4 2 True && jv_pg_es_send_email "$var_jv_pg_es_receivers_example" "Vidéo prise depuis Jarvis" "Ceci est un mail contenant une vidéo prise par Jarvis" "[\"/tmp/video_test.mp4\"]"
 
 *PHOTO*DISCRET*==jv_pg_ca_take_picture /tmp/photo_test.jpg True
 *PREND*PHOTO*==jv_pg_ca_take_picture /tmp/photo_test.jpg
