@@ -3,6 +3,8 @@
 # Take a picture
 # $1 (string): Storage path
 # $2 (bool, optional): Silent ("True" for no Jarvis response, "False" or no value for Jarvis response)
+#
+# return (int): 0 if success, 1 if failed
 jv_pg_ca_take_picture()
 {
   # Send request to take a picture
@@ -13,17 +15,22 @@ jv_pg_ca_take_picture()
     if [[ ! $2 =~ "True" ]]; then
       say "$(jv_pg_ca_lang take_picture_success)"
     fi
+    return 0
   else
     if [[ ! $2 =~ "True" ]]; then
       say "$(jv_pg_ca_lang take_picture_failed)"
     fi
   fi
+
+  return 1
 }
 
 # Take a video
 # $1 (string): Storage path
 # $2 (int): Video time
 # $3 (bool, optional): Silent ("True" for no Jarvis response, "False" or no value for Jarvis response)
+#
+# return (int): 0 if success, 1 if failed
 jv_pg_ca_take_video()
 {
   # Send request to take a video
@@ -34,9 +41,12 @@ jv_pg_ca_take_video()
     if [[ ! $3 =~ "True" ]]; then
       say "$(jv_pg_ca_lang take_video_success)"
     fi
+    return 0
   else
     if [[ ! $3 =~ "True" ]]; then
       say "$(jv_pg_ca_lang take_video_failed)"
     fi
   fi
+
+  return 1
 }
