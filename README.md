@@ -22,11 +22,9 @@ You: Prends une vidéo de test discrètement
 [Vidéo sauvegardée dans /tmp/video_test.mp4 comme définit dans le fichier command]
 
 You: Prends une vidéo et envoie la par mail
-Jarvis: Mail envoyé.
 [Vidéo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]
 
 You: Prends une photo et envoie la par mail
-Jarvis: Mail envoyé.
 [Photo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]
 
 You: Prends une photo et envoie la par facebook
