@@ -1,5 +1,5 @@
 ## Description
-Take a picture or a video with Jarvis (voice assistant) using any USB webcam compatible with Linux
+Take a picture or a video with <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using any USB webcam compatible with Linux.
 
 
 <img src="https://raw.githubusercontent.com/QuentinCG/jarvis-camera/master/presentation.png">
@@ -28,22 +28,27 @@ Jarvis: Mail envoyé.
 You: Prends une photo et envoie la par mail
 Jarvis: Mail envoyé.
 [Photo envoyée par mail grace au plugin [Email Sender](https://github.com/QuentinCG/jarvis-email-sender)]
+
+You: Prends une photo et envoie la par facebook
+[Photo envoyée par facebook grace au plugin [Facebook Messenger](https://github.com/QuentinCG/jarvis-fb-messenger)]
 ```
 
 
 ## How to install
 
-1) Connect your camera to your computer (with Linux OS)
+1) Connect your camera to your computer where <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> is installed
 
 2) Get the camera name using ```ls /dev/video*``` and the audio output name and number of the camera using ```arecord -l```
 
-3) Add this plugin in <a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">Jarvis project</a>
+3) Add this plugin to your Jarvis assistant (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-camera```
 
-4) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-email-sender">Email Sender plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">Jarvis project</a> if you want to send your picture or video by email.
+4) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-email-sender">Email Sender plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture or video by email.
 
-5) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-camera/blob/master/config.sh">configuration file</a> to match your requirements.
+5) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-fb-messenger">Facebook messenger plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture or video by Facebook messenger.
 
-6) Enjoy
+6) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-camera/blob/master/config.sh">configuration file</a> to match your requirements.
+
+7) Enjoy
 
 
 ## Author
