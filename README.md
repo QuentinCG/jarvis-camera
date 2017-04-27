@@ -44,7 +44,7 @@ You: Prends une photo et envoie la par facebook
 
 4) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-email-sender">Email Sender plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture or video by email.
 
-5) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-fb-messenger">Facebook messenger plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture or video by Facebook messenger.
+5) Also add <a target="_blank" href="https://github.com/QuentinCG/jarvis-fb-messenger">Facebook messenger plugin</a> to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> if you want to send your picture by Facebook messenger.
 
 6) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-camera/blob/master/config.sh">configuration file</a> to match your requirements.
 
